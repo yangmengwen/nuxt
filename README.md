@@ -1,4 +1,4 @@
-# mydemo
+# nuxt框架探索
 
 > My solid Nuxt.js project
 
