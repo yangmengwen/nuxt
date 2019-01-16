@@ -1,0 +1,15 @@
+[
+    {
+        "name":"iphone",
+        "pirce": "5000",
+        "id": "01"
+    },{
+        "name":"iphone6",
+        "pirce": "6000",
+        "id": "02"
+    },{
+        "name":"iphone8",
+        "pirce": "7000",
+        "id": "03"
+    }
+]
