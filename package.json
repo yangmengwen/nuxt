@@ -11,6 +11,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@antv/f2": "^3.3.4",
+    "antd": "^3.12.3",
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.11",

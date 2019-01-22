@@ -7,7 +7,7 @@
                 <nuxt-link :to="'/user/'+item.id">商品名称：{{item.name}} - 价格：{{item.price}}</nuxt-link>
             </li>
         </ul>
-
+        
     </div>
 </template>
 <script>

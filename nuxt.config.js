@@ -27,7 +27,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    '@antv/f2/lib/index'
   ],
 
   /*
@@ -36,7 +37,8 @@ module.exports = {
  plugins: [
    {src: '~/plugins/sort.js', ssr:true},
    {src: '~/plugins/elementUI.js', ssr:true},
-   {src: '~/plugins/sort.js', ssr:true}
+   {src: '~/plugins/sort.js', ssr:true},
+   {src: '~/plugins/antv.js', ssr:true}
   ],
 
   /*
@@ -70,7 +72,7 @@ module.exports = {
       
     },
     //vendor: ['~/plugins/axios.js','~/plugins/elementUI.js'],
-    vendor: ['element-ui'],
+    vendor: ['element-ui','antvf2'],
     
   }
 }
