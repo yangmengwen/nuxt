@@ -1,7 +1,6 @@
 <template>
     <div>
         <Logo></Logo>
-        <!-- <el-button type="danger">这是饿了么的按钮</el-button> -->
         <el-container style="height: 500px; border: 1px solid #eee">
   <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
     <el-menu :default-openeds="['1', '3']">
